@@ -1,0 +1,19 @@
+/*portofolio*/
+.thumbnail 
+{
+    max-width: 100%;
+    position: relative;
+    border: none;
+}
+
+.caption {
+
+    position: relative;
+    bottom: 3020px;
+    left: 0;
+    width: 100%;
+}
+
+/* .work img {
+    opacity: .8;
+} */

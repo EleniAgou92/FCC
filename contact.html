@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="background">
+
+        <div class="topnav" id="myTopnav">
+            <a class="c" href="contact.html">CONTACT</a>
+            <a class="b" href="portofolio.html">GALLERY</a>
+    
+            <a class="a active" href="index.html">ABOUT</a>
+</div>    
+
+    <div class="contact">
+        
+		<div class="contactform">
+			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+				<input type="text" name="fName" class="inputtext" value="First Name">
+				<input type="text" name="lName" class="inputtext" value="Last Name">
+				<input type="text" name="Email" class="inputtext" value="Your Email">
+				<textarea cols="4" rows="6" name="comment"  class="inputmessage">Your Messages...!!!</textarea>
+                <input type="submit" name="submit" value="Submit">  
+
+                <input type="button" name="Submit" class="submitbutton" onclick="submit" value="Submit">
+            </form>
+
+		</div>
+    </div>
+    
+    </div>
+</body>
+</html>
